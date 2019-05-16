@@ -1,4 +1,4 @@
-# UITableView_MVVM
+# 权限统一管理界面
 
 1.plist添加权限声明。 没有使用到权限 ，就不要引入相关api。
 
@@ -29,6 +29,15 @@
 
 3.推送 不用请求弹窗权限。
 正常一启动应用就会设置。这个时候 只要获取状态就可以了。
+
+if (IOS10) {
+[[UNUserNotificationCenter currentNotificationCenter] getNotificationSettingsWithCompletionHandler:^(UNNotificationSettings *settings) {
+return (settings.authorizationStatus == UNAuthorizationStatusAuthorized);
+}];
+} else {
+UIUserNotificationType types = [[UIApplication sharedApplication] currentUserNotificationSettings].types;
+return  (types != UIUserNotificationTypeNone);
+}
 
 
 

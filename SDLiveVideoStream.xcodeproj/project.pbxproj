@@ -233,7 +233,6 @@
 		75F5E848228D0FF700BFB715 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				75F5E893228D25E000BFB715 /* 权限截图.jpg */,
 				75F5E857228D0FF700BFB715 /* Controller */,
 				75F5E85A228D0FF700BFB715 /* Manager */,
 				75F5E86B228D0FF700BFB715 /* Model */,
@@ -351,8 +350,9 @@
 		FC12FD451F2F2F610012B633 /* SDLiveVideoStream */ = {
 			isa = PBXGroup;
 			children = (
-				75F5E848228D0FF700BFB715 /* Setting */,
+				75F5E893228D25E000BFB715 /* 权限截图.jpg */,
 				FCA35E02225DFB81000BB40D /* README.md */,
+				75F5E848228D0FF700BFB715 /* Setting */,
 				7525D0641F35A1D200C221DB /* Genternal */,
 				FC12FD491F2F2F610012B633 /* AppDelegate.h */,
 				FC12FD4A1F2F2F610012B633 /* AppDelegate.m */,
