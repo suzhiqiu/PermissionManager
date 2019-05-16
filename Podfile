@@ -15,7 +15,8 @@ pod 'ReactiveCocoa'        ,  '2.5'    #响应式编程
 pod 'Masonry'
 pod 'FLAnimatedImage'
 pod 'SDWebImage'           , ' 3.8.2'
-
+pod 'YYText'
+pod 'SVWebViewController'
 
 end
 

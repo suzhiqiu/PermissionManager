@@ -21,14 +21,17 @@
 		75D2F3B01F35B1A700A734F2 /* UIView+SDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2F3A21F35B1A700A734F2 /* UIView+SDCategory.m */; };
 		75D2F3B11F35B1A700A734F2 /* UIViewController+SDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2F3A41F35B1A700A734F2 /* UIViewController+SDCategory.m */; };
 		75D2F3B21F35B1A700A734F2 /* UIWebView+SDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2F3A61F35B1A700A734F2 /* UIWebView+SDCategory.m */; };
-		75F5E83F228C21B400BFB715 /* IMYDataViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E82E228C21B400BFB715 /* IMYDataViewModel.m */; };
-		75F5E840228C21B400BFB715 /* SDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E831228C21B400BFB715 /* SDTableViewController.m */; };
-		75F5E841228C21B400BFB715 /* IMYStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E834228C21B400BFB715 /* IMYStudent.m */; };
-		75F5E842228C21B400BFB715 /* IMYTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E837228C21B400BFB715 /* IMYTeacher.m */; };
-		75F5E843228C21B400BFB715 /* FHWStudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E83A228C21B400BFB715 /* FHWStudentCell.m */; };
-		75F5E844228C21B400BFB715 /* FHWBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E83C228C21B400BFB715 /* FHWBaseTableViewCell.m */; };
-		75F5E845228C21B400BFB715 /* FHWTeacherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E83E228C21B400BFB715 /* FHWTeacherCell.m */; };
-		75F5E847228C6F6100BFB715 /* 结构图.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F5E846228C6F6100BFB715 /* 结构图.png */; };
+		75F5E881228D0FF700BFB715 /* FHWSecretViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E859228D0FF700BFB715 /* FHWSecretViewController.m */; };
+		75F5E882228D0FF700BFB715 /* FHWSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E85B228D0FF700BFB715 /* FHWSettingManager.m */; };
+		75F5E883228D0FF700BFB715 /* LBXPermissionMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E85E228D0FF700BFB715 /* LBXPermissionMicrophone.m */; };
+		75F5E884228D0FF700BFB715 /* LBXPermissionCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E85F228D0FF700BFB715 /* LBXPermissionCalendar.m */; };
+		75F5E885228D0FF700BFB715 /* LBXPermissionPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E862228D0FF700BFB715 /* LBXPermissionPhotos.m */; };
+		75F5E886228D0FF700BFB715 /* LBXPermissionLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E865228D0FF700BFB715 /* LBXPermissionLocation.m */; };
+		75F5E887228D0FF700BFB715 /* LBXPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E866228D0FF700BFB715 /* LBXPermissionCamera.m */; };
+		75F5E88A228D0FF700BFB715 /* FHWSecretModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E86D228D0FF700BFB715 /* FHWSecretModel.m */; };
+		75F5E88B228D0FF700BFB715 /* FHWSecretCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E870228D0FF700BFB715 /* FHWSecretCell.m */; };
+		75F5E892228D189B00BFB715 /* FHWBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F5E890228D189B00BFB715 /* FHWBaseTableViewCell.m */; };
+		75F5E894228D25E000BFB715 /* 权限截图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75F5E893228D25E000BFB715 /* 权限截图.jpg */; };
 		FC12FD481F2F2F610012B633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC12FD471F2F2F610012B633 /* main.m */; };
 		FC12FD4B1F2F2F610012B633 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC12FD4A1F2F2F610012B633 /* AppDelegate.m */; };
 		FC12FD531F2F2F610012B633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC12FD521F2F2F610012B633 /* Assets.xcassets */; };
@@ -80,22 +83,27 @@
 		75D2F3A51F35B1A700A734F2 /* UIWebView+SDCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+SDCategory.h"; sourceTree = "<group>"; };
 		75D2F3A61F35B1A700A734F2 /* UIWebView+SDCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+SDCategory.m"; sourceTree = "<group>"; };
 		75D2F3B31F35B26900A734F2 /* SDLiveVideoStream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDLiveVideoStream-Prefix.pch"; sourceTree = "<group>"; };
-		75F5E82D228C21B400BFB715 /* IMYDataViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYDataViewModel.h; sourceTree = "<group>"; };
-		75F5E82E228C21B400BFB715 /* IMYDataViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYDataViewModel.m; sourceTree = "<group>"; };
-		75F5E830228C21B400BFB715 /* SDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTableViewController.h; sourceTree = "<group>"; };
-		75F5E831228C21B400BFB715 /* SDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTableViewController.m; sourceTree = "<group>"; };
-		75F5E833228C21B400BFB715 /* IMYItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYItemProtocol.h; sourceTree = "<group>"; };
-		75F5E834228C21B400BFB715 /* IMYStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYStudent.m; sourceTree = "<group>"; };
-		75F5E835228C21B400BFB715 /* IMYTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYTeacher.h; sourceTree = "<group>"; };
-		75F5E836228C21B400BFB715 /* IMYStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYStudent.h; sourceTree = "<group>"; };
-		75F5E837228C21B400BFB715 /* IMYTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYTeacher.m; sourceTree = "<group>"; };
-		75F5E839228C21B400BFB715 /* FHWBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWBaseTableViewCell.h; sourceTree = "<group>"; };
-		75F5E83A228C21B400BFB715 /* FHWStudentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWStudentCell.m; sourceTree = "<group>"; };
-		75F5E83B228C21B400BFB715 /* FHWTeacherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWTeacherCell.h; sourceTree = "<group>"; };
-		75F5E83C228C21B400BFB715 /* FHWBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWBaseTableViewCell.m; sourceTree = "<group>"; };
-		75F5E83D228C21B400BFB715 /* FHWStudentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWStudentCell.h; sourceTree = "<group>"; };
-		75F5E83E228C21B400BFB715 /* FHWTeacherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWTeacherCell.m; sourceTree = "<group>"; };
-		75F5E846228C6F6100BFB715 /* 结构图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "结构图.png"; sourceTree = "<group>"; };
+		75F5E858228D0FF700BFB715 /* FHWSecretViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWSecretViewController.h; sourceTree = "<group>"; };
+		75F5E859228D0FF700BFB715 /* FHWSecretViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWSecretViewController.m; sourceTree = "<group>"; };
+		75F5E85B228D0FF700BFB715 /* FHWSettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWSettingManager.m; sourceTree = "<group>"; };
+		75F5E85C228D0FF700BFB715 /* FHWSettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWSettingManager.h; sourceTree = "<group>"; };
+		75F5E85E228D0FF700BFB715 /* LBXPermissionMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionMicrophone.m; sourceTree = "<group>"; };
+		75F5E85F228D0FF700BFB715 /* LBXPermissionCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCalendar.m; sourceTree = "<group>"; };
+		75F5E860228D0FF700BFB715 /* LBXPermissionLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionLocation.h; sourceTree = "<group>"; };
+		75F5E861228D0FF700BFB715 /* LBXPermissionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCamera.h; sourceTree = "<group>"; };
+		75F5E862228D0FF700BFB715 /* LBXPermissionPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionPhotos.m; sourceTree = "<group>"; };
+		75F5E863228D0FF700BFB715 /* LBXPermissionCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCalendar.h; sourceTree = "<group>"; };
+		75F5E864228D0FF700BFB715 /* LBXPermissionMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionMicrophone.h; sourceTree = "<group>"; };
+		75F5E865228D0FF700BFB715 /* LBXPermissionLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionLocation.m; sourceTree = "<group>"; };
+		75F5E866228D0FF700BFB715 /* LBXPermissionCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCamera.m; sourceTree = "<group>"; };
+		75F5E867228D0FF700BFB715 /* LBXPermissionPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionPhotos.h; sourceTree = "<group>"; };
+		75F5E86C228D0FF700BFB715 /* FHWSecretModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWSecretModel.h; sourceTree = "<group>"; };
+		75F5E86D228D0FF700BFB715 /* FHWSecretModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWSecretModel.m; sourceTree = "<group>"; };
+		75F5E86F228D0FF700BFB715 /* FHWSecretCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWSecretCell.h; sourceTree = "<group>"; };
+		75F5E870228D0FF700BFB715 /* FHWSecretCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWSecretCell.m; sourceTree = "<group>"; };
+		75F5E890228D189B00BFB715 /* FHWBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHWBaseTableViewCell.m; sourceTree = "<group>"; };
+		75F5E891228D189B00BFB715 /* FHWBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHWBaseTableViewCell.h; sourceTree = "<group>"; };
+		75F5E893228D25E000BFB715 /* 权限截图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "权限截图.jpg"; sourceTree = "<group>"; };
 		7A66E5A9A66C823485C1D7B6 /* Pods-SDLiveVideoStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDLiveVideoStream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDLiveVideoStream/Pods-SDLiveVideoStream.debug.xcconfig"; sourceTree = "<group>"; };
 		9247ADC3A36C962B601EA65D /* libPods-SDLiveVideoStream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDLiveVideoStream.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC12FD431F2F2F610012B633 /* SDLiveVideoStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDLiveVideoStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,6 +201,7 @@
 		75D2F3761F35AF0F00A734F2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				75F5E88E228D11AF00BFB715 /* View */,
 				75D2F3771F35AF0F00A734F2 /* Model */,
 				75D2F3831F35AF0F00A734F2 /* ViewController */,
 			);
@@ -221,56 +230,85 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		75F5E82B228C21B400BFB715 /* TableViewPage */ = {
+		75F5E848228D0FF700BFB715 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				75F5E832228C21B400BFB715 /* Model */,
-				75F5E838228C21B400BFB715 /* View */,
-				75F5E82C228C21B400BFB715 /* ViewModel */,
-				75F5E82F228C21B400BFB715 /* Controller */,
+				75F5E893228D25E000BFB715 /* 权限截图.jpg */,
+				75F5E857228D0FF700BFB715 /* Controller */,
+				75F5E85A228D0FF700BFB715 /* Manager */,
+				75F5E86B228D0FF700BFB715 /* Model */,
+				75F5E86E228D0FF700BFB715 /* View */,
+				75F5E84A228D0FF700BFB715 /* ViewModel */,
 			);
-			path = TableViewPage;
+			path = Setting;
 			sourceTree = "<group>";
 		};
-		75F5E82C228C21B400BFB715 /* ViewModel */ = {
+		75F5E84A228D0FF700BFB715 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				75F5E82D228C21B400BFB715 /* IMYDataViewModel.h */,
-				75F5E82E228C21B400BFB715 /* IMYDataViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		75F5E82F228C21B400BFB715 /* Controller */ = {
+		75F5E857228D0FF700BFB715 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				75F5E830228C21B400BFB715 /* SDTableViewController.h */,
-				75F5E831228C21B400BFB715 /* SDTableViewController.m */,
+				75F5E858228D0FF700BFB715 /* FHWSecretViewController.h */,
+				75F5E859228D0FF700BFB715 /* FHWSecretViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		75F5E832228C21B400BFB715 /* Model */ = {
+		75F5E85A228D0FF700BFB715 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				75F5E833228C21B400BFB715 /* IMYItemProtocol.h */,
-				75F5E836228C21B400BFB715 /* IMYStudent.h */,
-				75F5E834228C21B400BFB715 /* IMYStudent.m */,
-				75F5E835228C21B400BFB715 /* IMYTeacher.h */,
-				75F5E837228C21B400BFB715 /* IMYTeacher.m */,
+				75F5E85B228D0FF700BFB715 /* FHWSettingManager.m */,
+				75F5E85C228D0FF700BFB715 /* FHWSettingManager.h */,
+				75F5E85D228D0FF700BFB715 /* Permission */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		75F5E85D228D0FF700BFB715 /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				75F5E85E228D0FF700BFB715 /* LBXPermissionMicrophone.m */,
+				75F5E85F228D0FF700BFB715 /* LBXPermissionCalendar.m */,
+				75F5E860228D0FF700BFB715 /* LBXPermissionLocation.h */,
+				75F5E861228D0FF700BFB715 /* LBXPermissionCamera.h */,
+				75F5E862228D0FF700BFB715 /* LBXPermissionPhotos.m */,
+				75F5E863228D0FF700BFB715 /* LBXPermissionCalendar.h */,
+				75F5E864228D0FF700BFB715 /* LBXPermissionMicrophone.h */,
+				75F5E865228D0FF700BFB715 /* LBXPermissionLocation.m */,
+				75F5E866228D0FF700BFB715 /* LBXPermissionCamera.m */,
+				75F5E867228D0FF700BFB715 /* LBXPermissionPhotos.h */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
+		75F5E86B228D0FF700BFB715 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75F5E86C228D0FF700BFB715 /* FHWSecretModel.h */,
+				75F5E86D228D0FF700BFB715 /* FHWSecretModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		75F5E838228C21B400BFB715 /* View */ = {
+		75F5E86E228D0FF700BFB715 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				75F5E839228C21B400BFB715 /* FHWBaseTableViewCell.h */,
-				75F5E83C228C21B400BFB715 /* FHWBaseTableViewCell.m */,
-				75F5E83D228C21B400BFB715 /* FHWStudentCell.h */,
-				75F5E83A228C21B400BFB715 /* FHWStudentCell.m */,
-				75F5E83B228C21B400BFB715 /* FHWTeacherCell.h */,
-				75F5E83E228C21B400BFB715 /* FHWTeacherCell.m */,
+				75F5E86F228D0FF700BFB715 /* FHWSecretCell.h */,
+				75F5E870228D0FF700BFB715 /* FHWSecretCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75F5E88E228D11AF00BFB715 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75F5E891228D189B00BFB715 /* FHWBaseTableViewCell.h */,
+				75F5E890228D189B00BFB715 /* FHWBaseTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -313,9 +351,8 @@
 		FC12FD451F2F2F610012B633 /* SDLiveVideoStream */ = {
 			isa = PBXGroup;
 			children = (
+				75F5E848228D0FF700BFB715 /* Setting */,
 				FCA35E02225DFB81000BB40D /* README.md */,
-				75F5E846228C6F6100BFB715 /* 结构图.png */,
-				75F5E82B228C21B400BFB715 /* TableViewPage */,
 				7525D0641F35A1D200C221DB /* Genternal */,
 				FC12FD491F2F2F610012B633 /* AppDelegate.h */,
 				FC12FD4A1F2F2F610012B633 /* AppDelegate.m */,
@@ -360,8 +397,7 @@
 				FC12FD3F1F2F2F610012B633 /* Sources */,
 				FC12FD401F2F2F610012B633 /* Frameworks */,
 				FC12FD411F2F2F610012B633 /* Resources */,
-				0C5DBBCA8C7E691D6C3795B8 /* [CP] Embed Pods Frameworks */,
-				C92C4EBF50BB942ECE172370 /* [CP] Copy Pods Resources */,
+				462C58758E394A30B99C8E0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -413,27 +449,54 @@
 			files = (
 				FCA35E03225DFB81000BB40D /* README.md in Resources */,
 				FC12FD561F2F2F610012B633 /* LaunchScreen.storyboard in Resources */,
+				75F5E894228D25E000BFB715 /* 权限截图.jpg in Resources */,
 				FC12FD531F2F2F610012B633 /* Assets.xcassets in Resources */,
-				75F5E847228C6F6100BFB715 /* 结构图.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C5DBBCA8C7E691D6C3795B8 /* [CP] Embed Pods Frameworks */ = {
+		462C58758E394A30B99C8E0C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDLiveVideoStream/Pods-SDLiveVideoStream-resources.sh",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari@2x.png",
+				"${PODS_ROOT}/SVWebViewController/SVWebViewController/SVWebViewController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerBack.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerBack@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerNext.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerNext@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivityChrome-iPad.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivityChrome-iPad@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivityChrome@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivitySafari-iPad.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivitySafari-iPad@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewControllerActivitySafari@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVWebViewController.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDLiveVideoStream/Pods-SDLiveVideoStream-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDLiveVideoStream/Pods-SDLiveVideoStream-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ACAE918EC1040032EFB03772 /* [CP] Check Pods Manifest.lock */ = {
@@ -451,24 +514,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C92C4EBF50BB942ECE172370 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SDLiveVideoStream/Pods-SDLiveVideoStream-resources.sh",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDLiveVideoStream/Pods-SDLiveVideoStream-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -479,32 +525,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				75D2F3AC1F35B1A700A734F2 /* UIImage+SDCategory.m in Sources */,
+				75F5E881228D0FF700BFB715 /* FHWSecretViewController.m in Sources */,
 				FCF6409C1F57984900F273CF /* BaseWebViewController.m in Sources */,
 				75D2F3A81F35B1A700A734F2 /* NSObject+SDCategory.m in Sources */,
+				75F5E883228D0FF700BFB715 /* LBXPermissionMicrophone.m in Sources */,
 				FCA35DF7225DED97000BB40D /* UIImageView+SDCategory.m in Sources */,
 				FCA35DFA225DEE06000BB40D /* UIView+IMYFoundation.m in Sources */,
+				75F5E884228D0FF700BFB715 /* LBXPermissionCalendar.m in Sources */,
 				75D2F3AA1F35B1A700A734F2 /* UIButton+SDCategory.m in Sources */,
 				75D2F3AE1F35B1A700A734F2 /* UILabel+SDCategory.m in Sources */,
-				75F5E844228C21B400BFB715 /* FHWBaseTableViewCell.m in Sources */,
 				75D2F38D1F35AF0F00A734F2 /* BaseViewController.m in Sources */,
 				75D2F3B11F35B1A700A734F2 /* UIViewController+SDCategory.m in Sources */,
-				75F5E842228C21B400BFB715 /* IMYTeacher.m in Sources */,
+				75F5E892228D189B00BFB715 /* FHWBaseTableViewCell.m in Sources */,
+				75F5E88B228D0FF700BFB715 /* FHWSecretCell.m in Sources */,
 				75D2F3A91F35B1A700A734F2 /* NSString+SDCategory.m in Sources */,
+				75F5E886228D0FF700BFB715 /* LBXPermissionLocation.m in Sources */,
 				FCA35E00225DEEAA000BB40D /* NSString+IMYFoundation.m in Sources */,
 				FC12FD4B1F2F2F610012B633 /* AppDelegate.m in Sources */,
-				75F5E83F228C21B400BFB715 /* IMYDataViewModel.m in Sources */,
+				75F5E885228D0FF700BFB715 /* LBXPermissionPhotos.m in Sources */,
+				75F5E88A228D0FF700BFB715 /* FHWSecretModel.m in Sources */,
 				75D2F3A71F35B1A700A734F2 /* NSData+SDCategory.m in Sources */,
 				75D2F3B21F35B1A700A734F2 /* UIWebView+SDCategory.m in Sources */,
 				75D2F3AB1F35B1A700A734F2 /* UIColor+SDCategory.m in Sources */,
-				75F5E843228C21B400BFB715 /* FHWStudentCell.m in Sources */,
+				75F5E882228D0FF700BFB715 /* FHWSettingManager.m in Sources */,
 				FC12FD481F2F2F610012B633 /* main.m in Sources */,
-				75F5E840228C21B400BFB715 /* SDTableViewController.m in Sources */,
 				75D2F3B01F35B1A700A734F2 /* UIView+SDCategory.m in Sources */,
 				FCA35DFD225DEE85000BB40D /* NSObject+IMYFoundation.m in Sources */,
 				75D2F3AF1F35B1A700A734F2 /* UITextField+SDCategory.m in Sources */,
-				75F5E845228C21B400BFB715 /* FHWTeacherCell.m in Sources */,
-				75F5E841228C21B400BFB715 /* IMYStudent.m in Sources */,
 				75D2F3881F35AF0F00A734F2 /* BaseViewModel.m in Sources */,
+				75F5E887228D0FF700BFB715 /* LBXPermissionCamera.m in Sources */,
 				FC50B54B1F387B3E00714738 /* BaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

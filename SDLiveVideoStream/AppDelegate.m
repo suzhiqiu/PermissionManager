@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "SDTableViewController.h"
+#import "FHWSecretViewController.h"
 
 
 @implementation AppDelegate
@@ -30,7 +30,7 @@
 
 -(void)CreateVCPage
 {
-    SDTableViewController *testVC=[[SDTableViewController alloc] init];
+    FHWSecretViewController *testVC=[[FHWSecretViewController alloc] init];
     UINavigationController *vc= [[UINavigationController alloc] initWithRootViewController:testVC];
     self.window.rootViewController=vc;
 }

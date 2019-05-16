@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>QQ</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -25,6 +27,26 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>用于大促活动的提醒</string>
+	<key>NSCameraUsageDescription</key>
+	<string>用于设置头像</string>
+	<key>NSContactsUsageDescription</key>
+	<string>可以找到您的好友</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>进行营销活动时防止刷单</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>进行营销活动时防止刷单</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>进行营销活动时防止刷单</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>与客服联系时使用</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>用于设置头像</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>用于设置头像</string>
+	<key>Privacy - Photo Library addUsage Description</key>
+	<string>用于设置头像</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>

@@ -26,6 +26,8 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
+  - SVWebViewController (1.0)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - AFNetworking
@@ -33,14 +35,28 @@ DEPENDENCIES:
   - Masonry
   - ReactiveCocoa (= 2.5)
   - SDWebImage (= 3.8.2)
+  - SVWebViewController
+  - YYText
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FLAnimatedImage
+    - Masonry
+    - ReactiveCocoa
+    - SDWebImage
+    - SVWebViewController
+    - YYText
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVWebViewController: c36dda7326e81fcae0abf5d02bf7bbf7e41be901
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 7bfe0d5383d8b4202a5e885c8d9242f0daf0c684
+PODFILE CHECKSUM: 9af35b56446c089d9c92a0880f67231336fa9684
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.6.1
