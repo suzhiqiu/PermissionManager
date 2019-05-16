@@ -42,4 +42,4 @@ return  (types != UIUserNotificationTypeNone);
 
 
 
-![image](https://github.com/suzhiqiu/UITableView_MVVM/blob/master/SDLiveVideoStream/%E7%BB%93%E6%9E%84%E5%9B%BE.png)
+![image](https://github.com/suzhiqiu/PermissionManager/blob/master/SDLiveVideoStream/%E6%9D%83%E9%99%90%E6%88%AA%E5%9B%BE.jpg)
